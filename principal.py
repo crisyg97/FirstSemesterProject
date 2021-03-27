@@ -35,17 +35,14 @@ def main():
         definicion=dameDefinicion(palabra,listaPalabras,listaDefiniciones)  #busca la definicion de la palabra elegida
 
         while segundos > fps/1000:
-
         # 1 frame cada 1/fps segundos
             gameClock.tick(fps)
             totaltime += gameClock.get_time()
 
             if True:
-
             	fps = 3
             #Busscar la tecla apretada del modulo de eventos de pygame
             for e in pygame.event.get():
-
                 #QUIT es apretar la X en la ventana
                 if e.type == QUIT:
                     pygame.quit()

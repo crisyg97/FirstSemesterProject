@@ -12,6 +12,3 @@ COLOR_FONDO = (0,0,0)
 COLOR_TEXTO = (200,200,200)
 COLOR_TIEMPO_FINAL = (200,20,10)
 Punto = namedtuple('Punto','x y')
-
-
-
